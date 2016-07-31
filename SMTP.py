@@ -23,7 +23,7 @@ def checkConnection(server, port, tls, user, passwd):
           connect.ehlo()
 
         connect.login(user, passwd)
-
+        
         return connect
 
     except:
